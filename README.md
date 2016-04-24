@@ -13,17 +13,18 @@ Then play with the source files under the repo's demo* directories.
 
 ## Index
 
-1. [Subdomain iframe resize](#demo01)
-1. [Use postMessage](#demo02)
-1. [Web proxy for cross-domain iframe resize](#demo03)
-1. [Use iframe-resizer library](#demo04)
+1. [Subdomain iframe resize](#demo01-subdomain-iframe-resize)
+1. [Use postMessage](#demo02-use-postmessage)
+1. [Web proxy for cross-domain iframe resize](#demo03-web-proxy-for-cross-domain-iframe-resize)
+1. [Use iframe-resizer library](#demo04-use-iframe-resizer-library)
 
 ---
 
 ## Demo01: Subdomain iframe resize
 
-a.html in domain sub1.aaron.com
-b.html in domain sub2.aaron.com
+a.html in domain sub1.aaron.com.
+
+b.html in domain sub2.aaron.com.
 
 a embed b
 
@@ -31,27 +32,30 @@ This demo only works for subdomain cross-iframe.
 
 ## Demo02: Use postMessage
 
-a.html in domain domain1.com
-b.html in domain domain2.com
+a.html in domain domain1.com.
+
+b.html in domain domain2.com.
 
 a embed b
 
 Use HTML5 postMessage.
 
-Support: Internet Explorer 8, Firefox 3, Opera 9, Chrome 3和 Safari 4。
+Support: Internet Explorer 8, Firefox 3, Opera 9, Chrome 3和 Safari 4.
 
 ## Demo03: Web proxy for cross-domain iframe resize
 
-a.html and c.html in domain domain1.com
-b.html in domain domain2.com
+a.html and c.html in domain domain1.com.
+
+b.html in domain domain2.com.
 
 a embed b
 b embed c
 
 ## Demo04: Use iframe-resizer library
 
-a.html in domain domain1.com
-b.html in domain domain2.com
+a.html in domain domain1.com.
+
+b.html in domain domain2.com.
 
 a embed b
 
