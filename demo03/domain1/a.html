@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Main Page</title>
+
+    <script type="text/javascript">
+      /**
+       * This function must be available on the main outer page.
+       * When called with a height it will update the size of the
+       * iframe to match that height.
+       */
+      function updateIFrame(height) {
+        var iframe = document.getElementById('iframe-b');
+        iframe.setAttribute('height', height);
+      }
+    </script>
+  </head>
+  <body>
+    <iframe src="http://domain2.com/b.html" frameborder="0" width="100%" id="iframe-b"></iframe>
+  </body>
+</html>

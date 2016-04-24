@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Inner Page</title>
+
+    <script type="text/javascript">
+      document.domain = "aaron.com"
+    </script>
+  </head>
+  <body>
+    <div><img src="../src/images/photo.jpeg" /></div>
+    <div><img src="../src/images/photo.jpeg" /></div>
+    <div><img src="../src/images/photo.jpeg" /></div>
+    <div><img src="../src/images/photo.jpeg" /></div>
+    <div><img src="../src/images/photo.jpeg" /></div>
+    <div><img src="../src/images/photo.jpeg" /></div>
+    <div><img src="../src/images/photo.jpeg" /></div>
+    <div><img src="../src/images/photo.jpeg" /></div>
+    <div><img src="../src/images/photo.jpeg" /></div>
+    <div><img src="../src/images/photo.jpeg" /></div>
+    <div><img src="../src/images/photo.jpeg" /></div>
+
+    <script type="text/javascript">
+      window.onload = function() {
+        var h  = document.body.scrollHeight;
+        parent.document.getElementById("iframe-b").style.height = h + "px";
+      }
+    </script>
+  </body>
+</html>

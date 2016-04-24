@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Inner Page</title>
+  </head>
+  <body>
+    <div><img src="../src/images/photo.jpeg" /></div>
+    <div><img src="../src/images/photo.jpeg" /></div>
+    <div><img src="../src/images/photo.jpeg" /></div>
+    <div><img src="../src/images/photo.jpeg" /></div>
+    <div><img src="../src/images/photo.jpeg" /></div>
+    <div><img src="../src/images/photo.jpeg" /></div>
+    <div><img src="../src/images/photo.jpeg" /></div>
+    <div><img src="../src/images/photo.jpeg" /></div>
+    <div><img src="../src/images/photo.jpeg" /></div>
+    <div><img src="../src/images/photo.jpeg" /></div>
+    <div><img src="../src/images/photo.jpeg" /></div>
+
+    <iframe src="http://domain1.com/c.html" id="resize-iframe" style="display: none;"></iframe>
+
+    <script type="text/javascript">
+      window.onload = function() {
+        var h  = document.body.scrollHeight;
+        document.getElementById("resize-iframe").src = "http://domain1.com/c.html?height=" + h;
+      }
+    </script>
+  </body>
+</html>

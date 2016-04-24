@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Resize iframe Page</title>
+  </head>
+  <body>
+    <script type="text/javascript">
+      window.onload = function() {
+        var h = location.search.replace('?', '').split('=')[1];
+        // parent.parent.document.getElementById("iframe-b").style.height = h + 'px';
+        window.top.updateIFrame(h);
+      }
+    </script>
+  </body>
+</html>
